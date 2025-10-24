@@ -1,0 +1,18 @@
+.completed {
+  text-decoration: line-through;
+  opacity: 0.6;
+}
+
+.list-group-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.task-info {
+  flex: 1;
+}
+
+.task-actions button {
+  margin-left: 5px;
+}
